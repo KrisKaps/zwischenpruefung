@@ -1,4 +1,4 @@
-# zwischenpruefung
+# Zwischenprüfung 2024
  Zwischenprüfung der Ausbuldung zum Mediengestalter - Digital Varianriante 2024
 
  
