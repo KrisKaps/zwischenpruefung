@@ -2,8 +2,8 @@
 
 Zwischenprüfung der Ausbildung zum Mediengestalter 2024 - Digital
 
-## Prüfling:
-Name:Christian Knist Pereira dos Santos
+### Prüfling:
+Name: Christian Knist Pereira dos Santos  
 Prüflingsnummer: 179 6132
 
 ## Prüfungsthema:
