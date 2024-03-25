@@ -18,7 +18,7 @@ Erstellung einer Vektorgrafik des Routenplans für den Hundeauslauf. Dazu die Er
 
 #### Aufgabeteil B:
 
-Entwurf und Gestaltung eines Onepagers für das Tierheim Diefreind e. V. Dieser soll Kinder und Erwachsene aus der Umgebung über das Angebot des Tierheims informieren und zur ehrenamtlichen Mitarbeit einladen. [Hier die Website](https://kriskaps.github.io/zwischenpruefung/teilaufgabe_b/index.html)
+Entwurf und Gestaltung eines Onepagers für das Tierheim Diefreind e. V. Dieser soll Kinder und Erwachsene aus der Umgebung über das Angebot des Tierheims informieren und zur ehrenamtlichen Mitarbeit einladen. [Hier die Website](https://kriskaps.github.io/zwischenpruefung/teilaufgabe_b/index.html).
 
 ## Verwendete Hard- und Software:
 
