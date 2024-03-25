@@ -3,11 +3,8 @@
 Zwischenprüfung der Ausbildung zum Mediengestalter 2024 - Digital
 
 ## Prüfling:
-Christian Knist Pereira dos Santos
-
-## Prüflingsnummer:
-179 6132
-
+Name:Christian Knist Pereira dos Santos
+Prüflingsnummer: 179 6132
 
 ## Prüfungsthema:
 
@@ -16,13 +13,13 @@ Christian Knist Pereira dos Santos
 Das Tierheim im pfälzischen Kätzelbach sucht dringend ehrenamtliche Unterstützung. Der Diefreind e. V. (pfälzisch für Tierfreund) will Kinder und Erwachsene für die regelmäßige Mithilfe gewinnen. Außerdem sind weitere Spender/-innen willkommen. Geworben werden soll dafür im Internet und mithilfe einer Infobroschüre.
 
 
+## Verwendete Hard- und Software:
 
-### Verwendetes Betriebssystem:
+### Betriebssystem:
 
 Microsoft Windows 10
 
-
-### Verwendeter Browser:
+### Browser:
 
 Google Chrome
 Version 123.0.6312.59 (Offizieller Build) (64-Bit)
