@@ -15,14 +15,18 @@ Das Tierheim im pfälzischen Kätzelbach sucht dringend ehrenamtliche Unterstüt
 
 ## Verwendete Hard- und Software:
 
-### Betriebssystem:
+### Computerhardware:
+Hersteller: Dell  
+Model: OptiPlex 5050  
 
-Microsoft Windows 10
+### Betriebssystem:
+Microsoft Windows 10 Pro  
+Version: 22H2  
+Systembuild: 19045.4170  
 
 ### Browser:
-
-Google Chrome
-Version 123.0.6312.59 (Offizieller Build) (64-Bit)
+Google Chrome  
+Version: 123.0.6312.59 (Offizieller Build) (64-Bit)
 
 
  
