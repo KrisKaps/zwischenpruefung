@@ -26,3 +26,11 @@ Systembuild: 19045.4170
 ### Browser:
 Google Chrome  
 Version: 123.0.6312.59 (Offizieller Build) (64-Bit)
+
+### IDE:
+Visual Studio Code  
+Version: 1.87.2 (user setup)  
+
+### Vektorgrafikprogramm:
+Illustrator  
+Version: 28.3
