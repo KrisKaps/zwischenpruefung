@@ -1,4 +1,3 @@
-# Zwischenprüfung
 
 Zwischenprüfung der Ausbildung zum Mediengestalter 2024 - Digital
 
