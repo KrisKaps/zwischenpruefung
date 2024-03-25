@@ -33,6 +33,7 @@ nav {
 
 nav a {
     color: #701a32;
+    margin: 0 20px;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
