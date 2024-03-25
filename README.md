@@ -14,7 +14,7 @@ Das Tierheim im pfälzischen Kätzelbach sucht dringend ehrenamtliche Unterstüt
 
 #### Aufgabeteil A:
 
-Erstellung einer Vektorgrafik des Routenplans für den Hundeauslauf. Dazu die Erstellung von Symbole für die Vegetationsformen Wald (Nadel- und Laubbäume), Büsche und Wiese. [Hier die Vorlage](https://github.com/KrisKaps/zwischenpruefung/blob/main/daten_ZP/Teilaufgabe_a/Routenplan.jpg) und [hier die Vektorgrafik](https://github.com/).
+Erstellung einer Vektorgrafik des Routenplans für den Hundeauslauf. Dazu die Erstellung von Symbole für die Vegetationsformen Wald (Nadel- und Laubbäume), Büsche und Wiese. [Hier die Vorlage](https://kriskaps.github.io/zwischenpruefung/daten_ZP/Teilaufgabe_a/Routenplan.jpg) und [hier die Vektorgrafik](https://github.com/).
 
 ## Verwendete Hard- und Software:
 
