@@ -63,8 +63,8 @@ nav a {
 }
 
 main {
-    margin: 0 auto;
     width: 1200px !important;
+    margin: 0 auto;
 }
 
 .title-box {
@@ -147,6 +147,8 @@ main article h3 {
 }
 
 footer {
+    width: 1200px !important;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
