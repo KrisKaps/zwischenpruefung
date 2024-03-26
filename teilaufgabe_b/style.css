@@ -51,6 +51,7 @@ nav {
 nav div {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     padding: 10px 0;
 }
 
@@ -129,6 +130,20 @@ main .content {
     margin: 50px 0;
 }
 
+.content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.content .picture {
+    grid-column: span 1;
+    border-radius: 20px;
+    overflow: hidden;
+    aspect-ratio: 3/2;
+}
+
 main p {
     margin: 15px 0 0;
 }
@@ -152,11 +167,15 @@ main article h2 {
 
 .content .text {
     margin: 20px 0 0;
+    grid-column: span 1;
+}
+
+.content-text-left .text {
+    grid-row: 1/auto;
 }
 
 .content .text a {
-    width: auto;
-    margin-top: 25px;
+    margin: 15px 0;
     background-color: var(--cor1);
     color: var(--cor0);
 }
@@ -166,38 +185,81 @@ main article h2 {
     color: var(--cor0);
 }
 
-
-.grid {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-}
-
-.grid .picture {
-    grid-column: span 1;
-    border-radius: 20px;
-    overflow: hidden;
-    aspect-ratio: 3/2;
-}
-
-/*.grid-text-left {
-    grid-template-columns: minmax(40%, 1fr) minmax(60%, 1fr);
-}*/
-
-.grid-text-left .text {
-    grid-row: 1/2;
-}
-
-.grid .text {
-    grid-column: span 1;
-}
-
-.grid img {
+.content img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+
+/* FORMULAR */
+
+#formular h3 {
+    text-align: center;
+    color: var(--cor1);
+}
+
+fieldset {
+    padding: 0 10px;
+}
+
+fieldset legend {
+    color: var(--cor1);
+    margin-left: 10px;
+}
+
+.taetigkeiten {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.person-infos input {
+    display: inline-block;
+    width: calc(50%-25px);
+    padding: 10px;
+    background-color: var(--cor0);
+    border: 2px solid var(--cor1);
+    border-radius: 5px;
+}
+
+.person-infos div {
+    display: block;
+    width: 49%;
+}
+
+.person-infos .flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vorname {
+    width: 20%;
+}
+
+.nachname {
+    width: 50%;
+}
+
+.alter {
+    width: 10%;
+}
+
+.person-infos label {
+    display: none;
+}
+
+hr {
+    width: 100%;
+    margin: 10px 0;
+    border: 3px solid var(--cor1);
+    border-radius: 5px;
+}
+
+
+/* FOOTER*/
 
 footer {
     display: grid;
@@ -215,17 +277,17 @@ footer section {
         font-size: .9rem;
     }
 
-    .grid {
+    .content {
         grid-template-columns: 6fr 4fr;
     }
 
-    .grid-text-left {
+    .content-text-left {
         grid-template-columns: 4fr 6fr;
     }
 }
 
 @media screen and (max-width: 900px) {
-    .grid {
+    .content {
         grid-template-columns: 1fr;
         gap: 0px;
     }
@@ -234,7 +296,7 @@ footer section {
         padding: 20px;
     }
 
-    .grid-text-left .text {
+    .content-text-left .text {
         grid-row: auto / span 1;
     }
 
