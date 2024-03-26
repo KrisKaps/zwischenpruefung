@@ -9,7 +9,8 @@ Prüflingsnummer: 179 6132
 
 ### Projekt: Tierheim "Diefreind e. V."
 
-Das Tierheim im pfälzischen Kätzelbach sucht dringend ehrenamtliche Unterstützung. Der Diefreind e. V. (pfälzisch für Tierfreund) will Kinder und Erwachsene für die regelmäßige Mithilfe gewinnen. Außerdem sind weitere Spender/-innen willkommen. Geworben werden soll dafür im Internet [mittels dieser Website](https://kriskaps.github.io/zwischenpruefung/teilaufgabe_b/index.html){:target=“_blank“} und mithilfe einer Infobroschüre.
+Das Tierheim im pfälzischen Kätzelbach sucht dringend ehrenamtliche Unterstützung. Der Diefreind e. V. (pfälzisch für Tierfreund) will Kinder und Erwachsene für die regelmäßige Mithilfe gewinnen. Außerdem sind weitere Spender/-innen willkommen. Geworben werden soll dafür im Internet <a href="https://kriskaps.github.io/zwischenpruefung/teilaufgabe_b/index.html" target="_blank">mittels dieser Website</a>  
+[mittels dieser Website](https://kriskaps.github.io/zwischenpruefung/teilaufgabe_b/index.html){:target=“_blank“} und mithilfe einer Infobroschüre.
 
 #### Aufgabeteil A:
 
