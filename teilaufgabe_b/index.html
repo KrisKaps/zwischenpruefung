@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="de-de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Diefreind</title>
 </head>
+
 <body>
-    
+
     <header>
         <nav>
-            <div >
+            <div class="w1200">
                 <a href="#"><img src="img/Logo_Diefreind.svg" alt="Logo Diefreind"></a>
-                <a href="#">Home</a>
-                <a href="#">Kinder und Jugendliche</a>
-                <a href="#">Erwachsene</a>
-                <a href="#">Kontakt</a>
-                <a href="#">Impressum</a>
-                <a href="#">Datenschutz</a>
+                <a href="#home" class="navi">Home</a>
+                <a href="#kinder-jugend" class="navi">Kinder und Jugendliche</a>
+                <a href="#erwachsene" class="navi">Erwachsene</a>
+                <a href="#kontakt" class="navi">Kontakt</a>
+                <a href="#impressum" class="navi">Impressum</a>
+                <a href="#impressum" class="navi">Datenschutz</a>
             </div>
         </nav>
-        
     </header>
     <section class="title-box">
         <div class="title-box-shadow">
-            <div class="title-center">
+            <div class="title-center w1200">
                 <div class="title">
                     <img src="img/Logo_Diefreind.svg" alt="Logo Diefreind">
                     <h1>Diefreind e.V.</h1>
@@ -32,118 +33,155 @@
             </div>
         </div>
     </section>
-    <main>
-        <article class="home">
-            <p>Täglich kommen neue Tiere zu uns ins Heim. Manche werden verletzt auf der Straße gefunden. Andere werden von ihren bisherigen Besitzern abgegeben. Oder Hund und Katz werden gar ausgesetzt. Das Diefreind-Team versorgt und pflegt die Schützlinge und betreut sie medizinisch. Ziel ist, ein neues Zuhause für sie zu finden. Wir allein schaffen nicht alles.</p>
+    <main class="w1200">
+        <article id="home">
+            <h2>Home</h2>
+            <p>Täglich kommen neue Tiere zu uns ins Heim. Manche werden verletzt auf der Straße gefunden. Andere werden
+                von ihren bisherigen Besitzern abgegeben. Oder Hund und Katz werden gar ausgesetzt. Das Diefreind-Team
+                versorgt und pflegt die Schützlinge und betreut sie medizinisch. Ziel ist, ein neues Zuhause für sie zu
+                finden. Wir allein schaffen nicht alles.</p>
             <p>Deshalb freuen sich unsere Gäste auf euch. Es gibt viel zu erleben und viel zu tun im Tierheim: </p>
-            <p>Katzen streicheln, Gassigehen, Hamster füttern, Gehege pflegen. Ob für Kinder, Jugendliche oder Erwachsene – für alle ist etwas Passendes dabei. Seht euch unser großes Angebot an.</p>
+            <p>Katzen streicheln, Gassigehen, Hamster füttern, Gehege pflegen. Ob für Kinder, Jugendliche oder
+                Erwachsene – für alle ist etwas Passendes dabei. Seht euch unser großes Angebot an.</p>
         </article>
         <section class="stoerer">
-            <button>Formular</button>
+            <a href="#formular"><button>Formular</button></a>
         </section>
-        <article class="kinder-jugend">
+        <article id="kinder-jugend">
             <h2>Kinder und Jugendliche</h2>
-            <section class="hunde-ausfuehren grid">
-                <section class="text">
-                    <h3>Hunde ausführen (für Kinder in Begleitung eines Erwachsenen)</h3>
-                    <p>Unsere Vierbeiner brauchen Bewegung. Einen fremden Hund an der Leine Gassiführen dürfen Kinder ab 12 Jahren – aber nur, wenn ein Erziehungsberechtigter dabei ist. Das hat gute Gründe: Weil unsere Tiere manchmal ein bisschen eigensinnig sind – kein Wunder bei dem harten Leben, das manche bereits hinter sich haben.</p>
-                    <p>Lust bekommen? Dann klicke auf den Link und fülle das Formular aus. Wir melden uns.</p>
-                    <a href="">Link zum Formular</a>
-                </section>
+            <section class="hunde-ausfuehren content grid grid-text-left">
                 <figure class="picture">
                     <img src="img/Bild_22.jpg" alt="Hunde ausführen für Kinder mit Begleitung">
                 </figure>
+                <section class="text">
+                    <h3>Hunde ausführen<br><span>(für Kinder in Begleitung eines Erwachsenen)</span></h3>
+                    <p>Unsere Vierbeiner brauchen Bewegung. Einen fremden Hund an der Leine Gassiführen dürfen Kinder ab
+                        12 Jahren – aber nur, wenn ein Erziehungsberechtigter dabei ist. Das hat gute Gründe: Weil
+                        unsere Tiere manchmal ein bisschen eigensinnig sind – kein Wunder bei dem harten Leben, das
+                        manche bereits hinter sich haben.</p>
+                    <p>Lust bekommen? Dann klicke auf den Link und fülle das Formular aus. Wir melden uns.</p>
+                    <a href="#formular">Link zum Formular</a>
+                </section>
             </section>
-            <section class="katzen-streichen grid">
+            <section class="katzen-streichen content grid">
                 <figure class="picture">
                     <img src="img/Bild_16.jpg" alt="Hunde ausführen für Kinder mit Begleitung">
                 </figure>
                 <section class="text">
-                    <h3>Katzen streicheln und Katzen vorlesen (für 6- bis 14-Jährige)</h3>
-                    <p>Es wird euch nicht wundern, dass die Tiere regelmäßige Streicheleinheiten lieben. Ihr könnt euch auf diese Weise mit ihnen anfreunden. Oft sind unsere Kätzchen jedoch scheu und trauen dem Menschen nicht sofort. Da wirkt es Wunder, wenn ihr aus einem Buch vorlest. Das schüchterne Tier gewöhnt sich an eure Stimme, kommt langsam näher und lässt sich am Ende vielleicht sogar streicheln. Und ihr habt laut Lesen geübt – ganz nebenbei.</p>
+                    <h3>Katzen streicheln und Katzen vorlesen<br><span>(für 6- bis 14-Jährige)</span></h3>
+                    <p>Es wird euch nicht wundern, dass die Tiere regelmäßige Streicheleinheiten lieben. Ihr könnt euch
+                        auf diese Weise mit ihnen anfreunden. Oft sind unsere Kätzchen jedoch scheu und trauen dem
+                        Menschen nicht sofort. Da wirkt es Wunder, wenn ihr aus einem Buch vorlest. Das schüchterne Tier
+                        gewöhnt sich an eure Stimme, kommt langsam näher und lässt sich am Ende vielleicht sogar
+                        streicheln. Und ihr habt laut Lesen geübt – ganz nebenbei.</p>
                     <p>Lust bekommen? Dann klicke auf den Link und fülle das Formular aus. Wir melden uns.</p>
-                    <a href="">Link zum Formular</a>
+                    <a href="#formular">Link zum Formular</a>
                 </section>
             </section>
-            <section class="ferienprogramm grid">
-                <section class="text">
-                    <h3>Ferienprogramme (für 8- bis 11-Jährige)</h3>
-                    <p>Ihr lernt unsere Tierheimbewohner kennen, ihre Eigenarten und Bedürfnisse. Ihr dürft einzelne Pflegearbeiten übernehmen. Wir machen Ausflüge in die „wilde“ Natur, bauen mit euch Insektenhotels und Vogelhäuser und beschäftigen uns mit dem Tierschutz.</p>
-                    <p>Hier erfährst du die nächsten Termine.</p>
-                    <a href="">Link zu den Terminen</a>
-                </section>
+            <section class="ferienprogramm content grid grid-text-left">
                 <figure class="picture">
                     <img src="img/Bild_20.jpg" alt="Hunde ausführen für Kinder mit Begleitung">
                 </figure>
+                <section class="text">
+                    <h3>Ferienprogramme<br><span>(für 8- bis 11-Jährige)</span></h3>
+                    <p>Ihr lernt unsere Tierheimbewohner kennen, ihre Eigenarten und Bedürfnisse. Ihr dürft einzelne
+                        Pflegearbeiten übernehmen. Wir machen Ausflüge in die „wilde“ Natur, bauen mit euch
+                        Insektenhotels und Vogelhäuser und beschäftigen uns mit dem Tierschutz.</p>
+                    <p>Hier erfährst du die nächsten Termine.</p>
+                    <a>Link zu den Terminen</a>
+                </section>
             </section>
-            
-            <section class="schuelerpraktikum grid">
+
+            <section class="schuelerpraktikum content grid">
                 <figure class="picture">
-                    <img src="img/Bild_19.jpg" alt="Hunde ausführen für Kinder mit Begleitung">
+                    <img src="img/Bild_09.jpg" alt="Hunde ausführen für Kinder mit Begleitung">
                 </figure>
                 <section class="text">
-                    <h3>Schülerpraktikum (Mindestalter 14 Jahre)</h3>
-                    <p>Im Rahmen eines von der Schule organisierten Praktikums könnt ihr bei uns ein bis zwei Wochen mitarbeiten. Ihr lernt dabei alle möglichen Aufgaben kennen – von der Aufnahme abgegebener oder ausgesetzter Tiere über ihre Versorgung und Pflege bis hin zur Vermittlung an Paten oder in ein neues Zuhause. Die Arbeitszeit dauert von Montag bis Freitag jeweils von 9 bis 16 Uhr.</p>
-                    <p>Neugierig geworden? Dann klicke auf den Link und fülle das Formular aus. Wir melden uns zeitnahe bei dir.</p>
-                    <a href="">Link zum Formular</a>
+                    <h3>Schülerpraktikum<br><span>(Mindestalter 14 Jahre)</span></h3>
+                    <p>Im Rahmen eines von der Schule organisierten Praktikums könnt ihr bei uns ein bis zwei Wochen
+                        mitarbeiten. Ihr lernt dabei alle möglichen Aufgaben kennen – von der Aufnahme abgegebener oder
+                        ausgesetzter Tiere über ihre Versorgung und Pflege bis hin zur Vermittlung an Paten oder in ein
+                        neues Zuhause. Die Arbeitszeit dauert von Montag bis Freitag jeweils von 9 bis 16 Uhr.</p>
+                    <p>Neugierig geworden? Dann klicke auf den Link und fülle das Formular aus. Wir melden uns zeitnahe
+                        bei dir.</p>
+                    <a href="#formular">Link zum Formular</a>
                 </section>
             </section>
         </article>
-        <article class="erwachsene">
+        <article id="erwachsene">
             <h2>Erwachsene</h2>
-            <section class="hunde-ausfuehren grid">
-                <section class="text">
-                    <h3>Hunde ausführen</h3>
-                    <p>Wenn Sie mindestens 18 Jahre alt sind, können Sie sich zu einem Einführungs-Seminar anmelden. Dort erfahren Sie Tipps und Tricks, die im Umgang mit manchmal eigenwilligen Hunden nötig sind, plus alle (versicherungs)rechtlichen Regeln. Das Seminar ist die Voraussetzung, um regelmäßig einen der Tierheimhunde ausführen zu dürfen – allein oder mit Ihren Kindern.</p>
-                    <a href="">Link zum Formular</a>
-                    <p>Termine für die nächsten Seminare erfahren Sie hier.</p>
-                    <a href="">Link zu den Terminen</a>
-                </section>
+            <section class="hunde-ausfuehren content grid grid-text-left">
                 <figure class="picture">
                     <img src="img/Bild_21.jpg" alt="Hunde ausführen für Kinder mit Begleitung">
                 </figure>
+                <section class="text">
+                    <h3>Hunde ausführen</h3>
+                    <p>Wenn Sie mindestens 18 Jahre alt sind, können Sie sich zu einem Einführungs-Seminar anmelden.
+                        Dort erfahren Sie Tipps und Tricks, die im Umgang mit manchmal eigenwilligen Hunden nötig sind,
+                        plus alle (versicherungs)rechtlichen Regeln. Das Seminar ist die Voraussetzung, um regelmäßig
+                        einen der Tierheimhunde ausführen zu dürfen – allein oder mit Ihren Kindern.</p>
+                    <a href="#formular">Link zum Formular</a>
+                    <p>Termine für die nächsten Seminare erfahren Sie hier.</p>
+                    <a href="">Link zu den Terminen</a>
+                </section>
             </section>
-            <section class="pflegedienste grid">
+            <section class="pflegedienste content grid">
                 <figure class="picture">
                     <img src="img/Bild_14.jpg" alt="Hunde ausführen für Kinder mit Begleitung">
                 </figure>
                 <section class="text">
                     <h3>Pflegedienste übernehmen</h3>
-                    <p>Ob Katzen streicheln, Meerschweinchen füttern oder Stallungen ausmisten – wir sind froh, wenn wir regelmäßig auf Ihre helfenden Hände zählen dürfen. Am besten ist es, wenn Sie am Vormittag zwischen 9 und 12 Uhr Zeit haben und sich für einen festen Tag in der Woche entscheiden. Eines garantieren wir Ihnen: Es gibt immer etwas Neues; langweilig werden diese Dienste nie.</p>
+                    <p>Ob Katzen streicheln, Meerschweinchen füttern oder Stallungen ausmisten – wir sind froh, wenn wir
+                        regelmäßig auf Ihre helfenden Hände zählen dürfen. Am besten ist es, wenn Sie am Vormittag
+                        zwischen 9 und 12 Uhr Zeit haben und sich für einen festen Tag in der Woche entscheiden. Eines
+                        garantieren wir Ihnen: Es gibt immer etwas Neues; langweilig werden diese Dienste nie.</p>
                     <p>Interessenten melden sich hier. Wir melden uns dann bei Ihnen.</p>
-                    <a href="">Link zum Formular</a>
+                    <a href="#formular">Link zum Formular</a>
                 </section>
             </section>
-            <section class="hendwerklich grid">
-                <section class="text">
-                    <h3>Handwerklich aktiv werden</h3>
-                    <p>Es gibt immer etwas zu reparieren und zu verbessern in den Gehegen, Stallungen und im Freigelände. Wenn Sie einen handwerklichen Beruf haben oder einfach gerne mit Holz, Metall oder im Garten arbeiten, können Sie uns eine große Hilfe sein.</p>
-                    <p>Interessenten melden sich hier. Wir melden uns dann bei Ihnen.</p>
-                    <a href="">Link zum Formular</a>
-                </section>
+            <section class="hendwerklich content grid grid-text-left">
                 <figure class="picture">
                     <img src="img/Bild_19.jpg" alt="Hunde ausführen für Kinder mit Begleitung">
                 </figure>
+                <section class="text">
+                    <h3>Handwerklich aktiv werden</h3>
+                    <p>Es gibt immer etwas zu reparieren und zu verbessern in den Gehegen, Stallungen und im
+                        Freigelände. Wenn Sie einen handwerklichen Beruf haben oder einfach gerne mit Holz, Metall oder
+                        im Garten arbeiten, können Sie uns eine große Hilfe sein.</p>
+                    <p>Interessenten melden sich hier. Wir melden uns dann bei Ihnen.</p>
+                    <a href="#formular">Link zum Formular</a>
+                </section>
             </section>
-            <section class="patenschaft grid">
+            <section class="patenschaft content grid">
                 <figure class="picture">
                     <img src="img/Bild_04.jpg" alt="Hunde ausführen für Kinder mit Begleitung">
                 </figure>
                 <section class="text">
                     <h3>Patenschaft übernehmen</h3>
-                    <p>Sie möchten sich gerne um ein Tier kümmern, haben aber zu Hause keinen Platz? Dann übernehmen Sie einfach die Patenschaft für einen unserer „Dauergäste“. Denn es gibt Tiere, die zu alt, zu auffällig oder zu krank sind, um noch in einen anderen Haushalt vermittelt zu werden. Sie bleiben bei uns. Wenn Sie mit einer regelmäßigen Spende für Futter und medizinische Versorgung aufkommen, hilft uns das sehr. Und Sie können Ihr „Patenkind“ immer mal wieder besuchen.</p>
+                    <p>Sie möchten sich gerne um ein Tier kümmern, haben aber zu Hause keinen Platz? Dann übernehmen Sie
+                        einfach die Patenschaft für einen unserer „Dauergäste“. Denn es gibt Tiere, die zu alt, zu
+                        auffällig oder zu krank sind, um noch in einen anderen Haushalt vermittelt zu werden. Sie
+                        bleiben bei uns. Wenn Sie mit einer regelmäßigen Spende für Futter und medizinische Versorgung
+                        aufkommen, hilft uns das sehr. Und Sie können Ihr „Patenkind“ immer mal wieder besuchen.</p>
                     <p>Interessenten melden sich hier. Wir melden uns dann bei Ihnen.</p>
-                    <a href="">Link zum Formular</a>
+                    <a href="#formular">Link zum Formular</a>
                 </section>
             </section>
-            <section class="infoabend">
-                <h3>Infoabend</h3>
-                <p>Wenn Sie all diese Informationen gelesen haben, sich aber noch ein genaueres Bild machen wollen, bevor Sie sich entscheiden, dann nehmen Sie doch gerne an einer unserer monatlichen Infoveranstaltungen teil.</p>
-                <p>Hier können Sie sich für den nächsten Termin anmelden.</p> 
-                <a href="">Link zur Anmeldung</a>
+            <section class="infoabend content grid grid-text-left">
+                <figure class="picture">
+                    <img src="img/Bild_06.jpg" alt="Hunde ausführen für Kinder mit Begleitung">
+                </figure>
+                <section class="text">
+                    <h3>Infoabend</h3>
+                    <p>Wenn Sie all diese Informationen gelesen haben, sich aber noch ein genaueres Bild machen wollen,
+                        bevor Sie sich entscheiden, dann nehmen Sie doch gerne an einer unserer monatlichen
+                        Infoveranstaltungen teil.</p>
+                    <p>Hier können Sie sich für den nächsten Termin anmelden.</p>
+                    <a href="">Link zur Anmeldung</a>
+                </section>
             </section>
         </article>
-        <article class="mein-engagement">
+        <article class="mein-engagement" id="formular">
             <form action="#" method="post" autocomplete="on">
                 <h3>Ich möchte mich im Tierheim engagieren.</h3>
                 <fieldset>
@@ -181,15 +219,6 @@
                         <label for="ialter">Alter*</label><br>
                         <input type="text" name="alter" id="ialter"><br>
                     </div>
-                    <p>Wer noch nicht volljährig ist, <strong>muss</strong> Kontaktdaten eines Erziehungsberechtigten angeben:</p>
-                    <div>
-                        <label for="ivorname-erziehungsberechtigten">Vorname</label><br>
-                        <input type="text" name="vorname-erziehungsberechtigten" id="ivorname-erziehungsberechtigten"><br>
-                    </div>
-                    <div>
-                        <label for="inachname-erziehungsberechtigten">Nachname</label><br>
-                        <input type="text" name="nachname-erziehungsberechtigten" id="inachname-erziehungsberechtigten"><br>
-                    </div>
                     <div>
                         <label for="istraße">Straße*</label><br>
                         <input type="text" name="straße" id="istraße"><br>
@@ -214,14 +243,27 @@
                         <label for="iemail">E-Mail-Adresse*</label><br>
                         <input type="text" name="email" id="iemail"><br>
                     </div>
+                    <hr>
+                    <p>Wer noch nicht volljährig ist, <strong>muss</strong> Kontaktdaten eines Erziehungsberechtigten
+                        angeben:</p>
+                    <div>
+                        <label for="ivorname-erziehungsberechtigten">Vorname</label><br>
+                        <input type="text" name="vorname-erziehungsberechtigten"
+                            id="ivorname-erziehungsberechtigten"><br>
+                    </div>
+                    <div>
+                        <label for="inachname-erziehungsberechtigten">Nachname</label><br>
+                        <input type="text" name="nachname-erziehungsberechtigten"
+                            id="inachname-erziehungsberechtigten"><br>
+                    </div>
                     <p>*Pflichtfeld</p>
                 </fieldset>
                 <input type="submit" value="Senden">
             </form>
         </article>
     </main>
-    <footer>
-        <section class="Kontakt">
+    <footer class="w1200">
+        <section id="kontakt">
             Diefreind e. V.
             Hunnstraße 1
             55555 Kätzelbach
@@ -234,7 +276,7 @@
             Di, Do, Sa, So 13–16.30 Uhr
             Mo, Mi, Fr nur nach Vereinbarung
         </section>
-        <section class="Impressum">
+        <section id="impressum">
             Diefreind e. V.
             Hunnstraße 1
             55555 Kätzelbach
@@ -242,8 +284,9 @@
             Vereinsvorstand (verantwortlich): Benedikt Triesdorf
             Geschäftsführerin: Babette Schäfrig
             Vereinsregister VR 007 Landau
-            St.Nr. 1234567123456 Finanzamt Landau           
+            St.Nr. 1234567123456 Finanzamt Landau
         </section>
     </footer>
 </body>
+
 </html>
