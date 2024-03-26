@@ -183,85 +183,75 @@
         <article class="mein-engagement" id="formular">
             <form action="#" method="post" autocomplete="on">
                 <h3>Ich möchte mich im Tierheim engagieren.</h3>
-                    <section class="taetigkeiten">
-                        <div>
-                            <input type="checkbox" name="hunde-ausfuehren" id="ihunde-ausfuehren">
-                            <label for="ihunde-ausfuehren">Hunde ausführen</label><br>
-                        </div>
-                        <div>
-                            <input type="checkbox" name="schuelerpraktikum" id="ischuelerpraktikum">
-                            <label for="ischuelerpraktikum">Schuelerpraktikum machen</label><br>
-                        </div>
-                        <div>
-                            <input type="checkbox" name="pflegedienste" id="ipflegedienste">
-                            <label for="ipflegedienste">Pflegedienste übernehmen</label><br>
-                        </div>
-                        <div>
-                            <input type="checkbox" name="handwerklich" id="ihandwerklich">
-                            <label for="ihandwerklich">Handwerklich aktiv werden</label><br>
-                        </div>
-                        <div>
-                            <input type="checkbox" name="patenschaft" id="ipatenschaft">
-                            <label for="ipatenschaft">Patenschaft übernehmen</label><br>
-                        </div>
+                <section class="taetigkeiten">
+                    <div>
+                        <input type="checkbox" name="hunde-ausfuehren" id="ihunde-ausfuehren">
+                        <label for="ihunde-ausfuehren">Hunde ausführen</label><br>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="schuelerpraktikum" id="ischuelerpraktikum">
+                        <label for="ischuelerpraktikum">Schuelerpraktikum machen</label><br>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="pflegedienste" id="ipflegedienste">
+                        <label for="ipflegedienste">Pflegedienste übernehmen</label><br>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="handwerklich" id="ihandwerklich">
+                        <label for="ihandwerklich">Handwerklich aktiv werden</label><br>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="patenschaft" id="ipatenschaft">
+                        <label for="ipatenschaft">Patenschaft übernehmen</label><br>
+                    </div>
+                </section>
+                <section class="person-infos">
+
+                    <section class="flex">
+                        <label for="ivorname">Vorname*</label>
+                        <input type="text" name="name" id="ivorname" placeholder="Vorname*">
+                        <label for="inachname">Nachname*</label>
+                        <input type="text" name="nachname" id="inachname" placeholder="Nachname*">
+                        <label for="ialter">Alter*</label>
+                        <input list="alter" name="alter" id="ialter" placeholder="Alter*">
+                        <datalist id="alter">
+                            <option value="12">
+                            <option value="13">
+                            <option value="14">
+                            <option value="15">
+                            <option value="16">
+                        </datalist>
                     </section>
-                    <section class="person-infos">
-                            
-                                <label for="ivorname">Vorname*</label>
-                                <input type="text" name="name" id="ivorname" placeholder="Vorname*">
-                            
-                            
-                                <label for="inachname">Nachname*</label>
-                                <input type="text" name="nachname" id="inachname" placeholder="Nachname*">
-                            
-                            <div class="alter">
-                                <label for="ialter">Alter*</label>
-                                <input type="text" name="alter" id="ialter" placeholder="Alter*">
-                            </div>
-                        <div class="flex">
-                            <div>
-                                <label for="istraße">Straße*</label>
-                                <input type="text" name="straße" id="istraße" placeholder="Straße*">
-                            </div>
-                            <div>
-                                <label for="ihausnummer">Hausnummer*</label>
-                                <input type="text" name="hausnummer" id="ihausnummer" placeholder="Hausnummer*">
-                            </div>
-                            <div>
-                                <label for="iplz">PLZ*</label>
-                                <input type="text" name="name" id="iplz" placeholder="PLZ*">
-                            </div>
-                            <div>
-                                <label for="iort">Ort*</label>
-                                <input type="text" name="lastname" id="iort" placeholder="Ort*">
-                            </div>
-                        </div>
-                        <div class="flex">
-                            <div>
-                                <label for="itelefon">Telefon</label>
-                                <input type="text" name="telefon" id="itelefon" placeholder="Telefon">
-                            </div>
-                            <div>
-                                <label for="iemail">E-Mail-Adresse*</label>
-                                <input type="text" name="email" id="iemail" placeholder="E-Mail-Adresse**">
-                            </div>
-                        </div>
-                        <hr>
-                        <p>Wer noch nicht volljährig ist, <strong>muss</strong> Kontaktdaten eines Erziehungsberechtigten
-                            angeben:</p>
-                        <div>
+
+                    <section class="flex">
+                        <label for="istraße">Straße*</label>
+                        <input type="text" name="straße" id="istraße" placeholder="Straße*">
+                        <label for="ihausnummer">Hausnummer*</label>
+                        <input type="text" name="hausnummer" id="ihausnummer" placeholder="Hausnummer*">
+                        <label for="iplz">PLZ*</label>
+                        <input type="text" name="name" id="iplz" placeholder="PLZ*">
+                        <label for="iort">Ort*</label>
+                        <input type="text" name="lastname" id="iort" placeholder="Ort*">
+                    </section>
+                    <section class="flex">
+                        <label for="iemail">E-Mail-Adresse*</label>
+                        <input type="text" name="email" id="iemail" placeholder="E-Mail-Adresse*">
+                        <label for="itelefon">Telefon</label>
+                        <input type="text" name="telefon" id="itelefon" placeholder="Telefon">
+                    </section>
+                    <hr>
+                    <p>Wer noch nicht volljährig ist, <strong>muss</strong> Kontaktdaten eines Erziehungsberechtigten angeben:</p>
+                        <section class="flex">
                             <label for="ivorname-erziehungsberechtigten">Vorname Erziehungsberechtigten</label>
-                            <input type="text" name="vorname-erziehungsberechtigten"
-                                id="ivorname-erziehungsberechtigten" placeholder="Vorname Erziehungsberechtigten">
-                        </div>
-                        <div>
+                            <input type="text" name="vorname-erziehungsberechtigten" id="ivorname-erziehungsberechtigten"
+                                placeholder="Vorname Erziehungsberechtigten">
                             <label for="inachname-erziehungsberechtigten">Nachname Erziehungsberechtigten</label>
-                            <input type="text" name="nachname-erziehungsberechtigten"
-                                id="inachname-erziehungsberechtigten" placeholder="Nachname Erziehungsberechtigten">
-                        </div>
-                        <p>*Pflichtfeld</p>
-                                        <input type="submit" value="Senden">
-                    </section>
+                            <input type="text" name="nachname-erziehungsberechtigten" id="inachname-erziehungsberechtigten"
+                                placeholder="Nachname Erziehungsberechtigten">
+                        </section>
+                    <p>*Pflichtfeld</p>
+                    <a>Senden</a>
+                </section>
             </form>
         </article>
     </main>

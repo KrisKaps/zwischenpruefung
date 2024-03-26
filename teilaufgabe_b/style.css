@@ -194,68 +194,94 @@ main article h2 {
 
 /* FORMULAR */
 
+#formular {
+    background-color: var(--cor1);
+    padding: 20px 10px;
+    color: var(--cor0);
+    border-radius: 10px;
+}
+
 #formular h3 {
     text-align: center;
-    color: var(--cor1);
-}
-
-fieldset {
-    padding: 0 10px;
-}
-
-fieldset legend {
-    color: var(--cor1);
-    margin-left: 10px;
-}
-
-.taetigkeiten {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px 0;
-    margin: 20px 0;
-}
-
-.person-infos input {
-    display: inline-block;
-    width: calc(50%-25px);
-    padding: 10px;
-    background-color: var(--cor0);
-    border: 2px solid var(--cor1);
-    border-radius: 5px;
-}
-
-.person-infos div {
-    display: block;
-    width: 49%;
-}
-
-.person-infos .flex {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.vorname {
-    width: 20%;
-}
-
-.nachname {
-    width: 50%;
-}
-
-.alter {
-    width: 10%;
 }
 
 .person-infos label {
     display: none;
 }
 
+.person-infos input,
+.person-infos a {
+    display: inline-block;
+    padding: 10px;
+    background-color: var(--cor1);
+    border: 2px solid var(--cor0);
+    border-radius: 5px;
+}
+
+.person-infos input::placeholder {
+    color: var(--cor0);
+}
+
+.person-infos #ivorname,
+.person-infos #inachname {
+    width: 39%;
+}
+
+.person-infos #ialter {
+    width: 15%;
+}
+
+.person-infos #istraße {
+    width: 50%;
+}
+
+.person-infos #ihausnummer,
+.person-infos #iplz {
+    width: 10%;
+}
+
+.person-infos #iort {
+    width: 20%;
+}
+
+.person-infos #iemail {
+    width: 70%;
+}
+
+.person-infos #itelefon {
+    width: 25%;
+}
+
+.person-infos .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
 hr {
     width: 100%;
-    margin: 10px 0;
-    border: 3px solid var(--cor1);
+    margin: 20px 0;
+    border: 3px solid var(--cor0);
     border-radius: 5px;
+}
+
+.person-infos #ivorname-erziehungsberechtigten,
+.person-infos #inachname-erziehungsberechtigten {
+    width: 47%;
+}
+
+.person-infos a {
+    margin: 20px 0 0;
+}
+
+.person-infos a:hover {
+    color: var(--cor1);
+    background-color: var(--cor0);
+}
+
+.person-infos a:active {
+    border: 2px solid var(--cor1);
 }
 
 
