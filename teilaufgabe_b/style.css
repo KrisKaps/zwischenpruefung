@@ -6,8 +6,8 @@
     --cor0: lightyellow;
     --cor1: #701a32;
     --cor2: #992549;
-    --cor3: #2fa866;
-    --cor4: #1a5c37;
+    --cor3: hsl(60, 50%, 50%);
+    --cor4: hsl(60, 29%, 29%);
     --cor5: #063d1e;
 }
 
@@ -80,11 +80,6 @@ nav .navi:hover {
     color: var(--cor0);
 }
 
-nav .navi:hover {
-    background-color: var(--cor1);
-    color: var(--cor0);
-}
-
 
 /* START BANNER */
 
@@ -122,6 +117,19 @@ nav .navi:hover {
     color: white;
 }
 
+/* STÖRER */
+
+.stoerer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--cor1);
+    border: 1px solid var(--cor1);
+    color: var(--cor0);
+    font-size: 1.2rem;
+    border-radius: 20px;
+}
 
 /* INHALT BOXEN */
 
@@ -172,17 +180,27 @@ main article h2 {
 
 .content-text-left .text {
     grid-row: 1/auto;
+    text-align: right;
 }
 
 .content .text a {
     margin: 15px 0;
     background-color: var(--cor1);
     color: var(--cor0);
+    border: 1px solid var(--cor1);
 }
 
-.content .text a:hover {
+.content .text a:hover,
+.stoerer:hover {
     background-color: var(--cor2);
     color: var(--cor0);
+}
+
+.content .text a:active,
+.stoerer:active {
+    background-color: var(--cor0);
+    color: var(--cor1);
+    border: 1px solid var(--cor1);
 }
 
 .content img {
@@ -196,7 +214,7 @@ main article h2 {
 
 #formular {
     background-color: var(--cor1);
-    padding: 20px 10px;
+    padding: 20px;
     color: var(--cor0);
     border-radius: 10px;
 }
@@ -205,58 +223,27 @@ main article h2 {
     text-align: center;
 }
 
-.person-infos label {
-    display: none;
+.taetigkeiten div {
+    margin: 10px 0;
 }
 
 .person-infos input,
-.person-infos a {
-    display: inline-block;
+.person-infos button {
+    display: block;
     padding: 10px;
     background-color: var(--cor1);
     border: 2px solid var(--cor0);
+    color: var(--cor0);
     border-radius: 5px;
+}
+
+.person-infos input {
+    width: calc(100% - 30px);
+    margin: 10px auto;
 }
 
 .person-infos input::placeholder {
     color: var(--cor0);
-}
-
-.person-infos #ivorname,
-.person-infos #inachname {
-    width: 39%;
-}
-
-.person-infos #ialter {
-    width: 15%;
-}
-
-.person-infos #istraße {
-    width: 50%;
-}
-
-.person-infos #ihausnummer,
-.person-infos #iplz {
-    width: 10%;
-}
-
-.person-infos #iort {
-    width: 20%;
-}
-
-.person-infos #iemail {
-    width: 70%;
-}
-
-.person-infos #itelefon {
-    width: 25%;
-}
-
-.person-infos .flex {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px 0;
 }
 
 hr {
@@ -266,21 +253,16 @@ hr {
     border-radius: 5px;
 }
 
-.person-infos #ivorname-erziehungsberechtigten,
-.person-infos #inachname-erziehungsberechtigten {
-    width: 47%;
-}
-
-.person-infos a {
+.person-infos button {
     margin: 20px 0 0;
 }
 
-.person-infos a:hover {
+.person-infos button:hover {
     color: var(--cor1);
     background-color: var(--cor0);
 }
 
-.person-infos a:active {
+.person-infos button:active {
     border: 2px solid var(--cor1);
 }
 
@@ -291,40 +273,21 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    padding: 0 0 30px;
 }
 
 footer section {
     grid-column: span 1;
 }
 
-@media screen and (max-width: 1100px) {
-
-    nav {
-        font-size: .9rem;
-    }
-
-    .content {
-        grid-template-columns: 6fr 4fr;
-    }
-
-    .content-text-left {
-        grid-template-columns: 4fr 6fr;
-    }
+footer p {
+    margin: 16px 0 0;
 }
 
-@media screen and (max-width: 900px) {
-    .content {
-        grid-template-columns: 1fr;
-        gap: 0px;
-    }
+footer #kontakt {
+    text-align: right;
+}
 
-    .content .text a {
-        padding: 20px;
-    }
-
-    .content-text-left .text {
-        grid-row: auto / span 1;
-    }
-
-
+footer #impressum {
+    text-align: left;
 }

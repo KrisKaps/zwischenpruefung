@@ -13,7 +13,7 @@
         <nav>
             <div class="w1200">
                 <a href="#"><img src="img/Logo_Diefreind.svg" alt="Logo Diefreind"></a>
-                <a href="#home" class="navi">Home</a>
+                <a href="#" class="navi">Home</a>
                 <a href="#kinder-jugend" class="navi">Kinder und Jugendliche</a>
                 <a href="#erwachsene" class="navi">Erwachsene</a>
                 <a href="#kontakt" class="navi">Kontakt</a>
@@ -43,8 +43,8 @@
             <p>Katzen streicheln, Gassigehen, Hamster füttern, Gehege pflegen. Ob für Kinder, Jugendliche oder
                 Erwachsene – für alle ist etwas Passendes dabei. Seht euch unser großes Angebot an.</p>
         </article>
-        <section class="stoerer">
-            <a href="#formular"><button>Formular</button></a>
+        <section>
+            <a class="stoerer" href="#formular">Hier zum Anmeldeformular</a>
         </section>
         <article id="kinder-jugend">
             <h2>Kinder und Jugendliche</h2>
@@ -206,78 +206,54 @@
                     </div>
                 </section>
                 <section class="person-infos">
-
-                    <section class="flex">
-                        <label for="ivorname">Vorname*</label>
-                        <input type="text" name="name" id="ivorname" placeholder="Vorname*">
-                        <label for="inachname">Nachname*</label>
-                        <input type="text" name="nachname" id="inachname" placeholder="Nachname*">
-                        <label for="ialter">Alter*</label>
-                        <input list="alter" name="alter" id="ialter" placeholder="Alter*">
-                        <datalist id="alter">
-                            <option value="12">
-                            <option value="13">
-                            <option value="14">
-                            <option value="15">
-                            <option value="16">
-                        </datalist>
-                    </section>
-
-                    <section class="flex">
-                        <label for="istraße">Straße*</label>
-                        <input type="text" name="straße" id="istraße" placeholder="Straße*">
-                        <label for="ihausnummer">Hausnummer*</label>
-                        <input type="text" name="hausnummer" id="ihausnummer" placeholder="Hausnummer*">
-                        <label for="iplz">PLZ*</label>
-                        <input type="text" name="name" id="iplz" placeholder="PLZ*">
-                        <label for="iort">Ort*</label>
-                        <input type="text" name="lastname" id="iort" placeholder="Ort*">
-                    </section>
-                    <section class="flex">
-                        <label for="iemail">E-Mail-Adresse*</label>
-                        <input type="text" name="email" id="iemail" placeholder="E-Mail-Adresse*">
-                        <label for="itelefon">Telefon</label>
-                        <input type="text" name="telefon" id="itelefon" placeholder="Telefon">
-                    </section>
+                    <input type="text" name="name" id="ivorname" placeholder="Vorname*">
+                    <input type="text" name="nachname" id="inachname" placeholder="Nachname*">
+                    <input list="alter" name="alter" id="ialter" placeholder="Alter*">
+                    <datalist id="alter">
+                        <option value="12">
+                        <option value="13">
+                        <option value="14">
+                        <option value="15">
+                        <option value="16">
+                    </datalist>
+                    <input type="text" name="straße" id="istraße" placeholder="Straße*">
+                    <input type="text" name="hausnummer" id="ihausnummer" placeholder="Hausnummer*">
+                    <input type="text" name="name" id="iplz" placeholder="PLZ*">
+                    <input type="text" name="lastname" id="iort" placeholder="Ort*">
+                    <input type="text" name="email" id="iemail" placeholder="E-Mail-Adresse*">
+                    <input type="text" name="telefon" id="itelefon" placeholder="Telefon">
                     <hr>
-                    <p>Wer noch nicht volljährig ist, <strong>muss</strong> Kontaktdaten eines Erziehungsberechtigten angeben:</p>
-                        <section class="flex">
-                            <label for="ivorname-erziehungsberechtigten">Vorname Erziehungsberechtigten</label>
-                            <input type="text" name="vorname-erziehungsberechtigten" id="ivorname-erziehungsberechtigten"
-                                placeholder="Vorname Erziehungsberechtigten">
-                            <label for="inachname-erziehungsberechtigten">Nachname Erziehungsberechtigten</label>
-                            <input type="text" name="nachname-erziehungsberechtigten" id="inachname-erziehungsberechtigten"
-                                placeholder="Nachname Erziehungsberechtigten">
-                        </section>
+                    <p>Wer noch nicht volljährig ist, <strong>muss</strong> Kontaktdaten eines Erziehungsberechtigten
+                        angeben:</p>
+                    <input type="text" name="vorname-erziehungsberechtigten" id="ivorname-erziehungsberechtigten"
+                        placeholder="Vorname Erziehungsberechtigten">
+                    <input type="text" name="nachname-erziehungsberechtigten" id="inachname-erziehungsberechtigten"
+                        placeholder="Nachname Erziehungsberechtigten">
                     <p>*Pflichtfeld</p>
-                    <a>Senden</a>
+                    <button type="submit">Senden</button>
                 </section>
             </form>
         </article>
     </main>
     <footer class="w1200">
         <section id="kontakt">
-            Diefreind e. V.
-            Hunnstraße 1
-            55555 Kätzelbach
-            Tel: 01020/304050
-            Fax: 01020/304055
-            Notruftelefon: 0171/101010
-            info@diefreind-kaetzelbach.de
-
-            Besuchstage
-            Di, Do, Sa, So 13–16.30 Uhr
-            Mo, Mi, Fr nur nach Vereinbarung
+            <h3>Kontakt</h3>
+            <p>Diefreind e. V.</p>
+            <p>Hunnstraße 1<br>55555 Kätzelbach</p>
+            <p>Tel: 01020/304050<br>Fax: 01020/304055<br>Notruftelefon: 0171/101010<br>info@diefreind-kaetzelbach.de</p>
+            <p>
+                Besuchstage<br>
+                Di, Do, Sa, So 13–16.30 Uhr<br>
+                Mo, Mi, Fr nur nach Vereinbarung<br>
+            </p>
         </section>
         <section id="impressum">
-            Diefreind e. V.
-            Hunnstraße 1
-            55555 Kätzelbach
-            Tel: 01020/304050
-            Vereinsvorstand (verantwortlich): Benedikt Triesdorf
-            Geschäftsführerin: Babette Schäfrig
-            Vereinsregister VR 007 Landau
-            St.Nr. 1234567123456 Finanzamt Landau
+            <h3>Impressum</h3>
+            <p>Diefreind e. V.</p>
+            <p>Hunnstraße 1<br>55555 Kätzelbach</p>
+            <p>Tel: 01020/304050</p>
+            <p>Vereinsvorstand (verantwortlich): Benedikt Triesdorf<br>Geschäftsführerin: Babette Schäfrig</p>
+            <p>Vereinsregister VR 007 Landau<br>St.Nr. 1234567123456 Finanzamt Landau</p>
         </section>
     </footer>
 </body>
