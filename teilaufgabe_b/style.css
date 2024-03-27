@@ -93,9 +93,9 @@ nav .navi:hover {
 .title-box-shadow {
     width: 100%;
     height: 100%;
-    padding-top: 80px;
-    /*wegen fixierter Navigation notwendig*/
     background-color: rgba(0, 0, 0, 0.5);
+    /*wegen fixierter Navigation notwendig*/
+    padding-top: 100px;
 }
 
 /* .title-box .title-center {
